@@ -21,28 +21,23 @@ return(
     <div className="slide">
         <div className="row">
             <div className="col-md-9">
-                <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src={require('../../gambar/slide1.jpg')} className="img-fluid d-block w-100 tinggi"
-                                alt="..." />
+                            <img className="d-block w-100 tinggi" src={require('../../gambar/slide1.jpg')} alt="First slide" />
                         </div>
-                        <div className="carousel-item active">
-                            <img src={require('../../gambar/slide2.jpeg')} className="img-fluid d-block w-100 tinggi"
-                                alt="..." />
+                        <div className="carousel-item">
+                            <img className="d-block w-100 tinggi" src={require('../../gambar/slide2.jpeg')} alt="Second slide" />
                         </div>
-                        <div className="carousel-item active">
-                            <img src={require('../../gambar/slide3.jpg')} className="img-fluid d-block w-100 tinggi"
-                                alt="..." />
+                        <div className="carousel-item">
+                            <img className="d-block w-100 tinggi" src={require('../../gambar/slide3.jpg')} alt="Third slide" />
                         </div>
                     </div>
-                    <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                        data-slide="prev">
+                    <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span className="sr-only">Previous</span>
                     </a>
-                    <a className="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                        data-slide="next">
+                    <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="sr-only">Next</span>
                     </a>
